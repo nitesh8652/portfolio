@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 5px solid red; */
+
+}
+
+.nav{
+    margin: auto;
+    width: 99%;
+    background-color: rgb(184, 216, 245);
+    padding: 20px 9px 0px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav h3{
+    font-weight: 400;
+    font-size: 23px;
+    padding-top: 6px;
+}
+
+.logo{
+    height: 64px;
+    width: 133px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+
+.menu img{
+    height: 46px;
+    width: 30px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.coverpage{
+    background-color: antiquewhite;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    padding: 225px 0px 0px 0px;
+
+}
+
+.coverpage h5{
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -4px;
+}
+
+.headings{
+    display: flex;
+    gap: 36px;
+    font-size: 50px;
+    margin: auto;
+}
